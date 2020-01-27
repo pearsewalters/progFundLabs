@@ -16,6 +16,6 @@ Variables are referenced @variable_name, and will not include '@' in final sourc
 07. Repeat line 3 to add padding for right border;
 08. Repeat line 3 to add padding for right border;
 09. Print @asterisks
-10. Print the concatenation '*' + @quote + '*'
+10. Print the concatenation '* ' + @quote + ' *'
 11. Repeat line 7
 
