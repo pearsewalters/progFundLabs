@@ -3,19 +3,6 @@ Lab 1, algorithm
 This program displays one my favorite quotes from the movie AIRPLANE! by the Zucker Brothers and Jim Abraham
 When run, it will print the quote surrounded by asterisks
 
-Variables are referenced @variable_name, and will not include '@' in final source code
-
-01. Declare variable @quote with value "'I am serious. And don\'t call me Shirley.' - Dr. Rumack, as played by Leslie Nielsen";
-02. Declare variable @asterisks with value '';
-03. Concatenate '*' to @asterisks 
-04. Repeat line 3 for every character in @quote minus 1;
-05. Repeat line 3 to add padding for left border;
-06. Repeat line 3 to add padding for left border;
-06. Repeat line 3 to add padding for left border;
-07. Repeat line 3 to add padding for right border;
-07. Repeat line 3 to add padding for right border;
-08. Repeat line 3 to add padding for right border;
-09. Print @asterisks
-10. Print the concatenation '* ' + @quote + ' *'
-11. Repeat line 7
-
+01. Display "*****************************************************************************************";
+02. Display "* 'I am serious. And don\'t call me Shirley.' - Dr. Rumack, as played by Leslie Nielsen" *;
+03. Repeat line 1.
