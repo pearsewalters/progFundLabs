@@ -5,4 +5,4 @@ When run, it will print the quote surrounded by asterisks
 
 01. Display "*****************************************************************************************";
 02. Display "* 'I am serious. And don\'t call me Shirley.' - Dr. Rumack, as played by Leslie Nielsen" *;
-03. Repeat line 1.
+03. Repeat step 1.
