@@ -1,0 +1,8 @@
+Sam Walters
+Lab 2, algorithm
+
+01. Display welcome message with fancy border
+02. Read the user's name 
+03. Display the game menu
+04. Prompt for user's selection as an integer 
+05. Display the message "[user's name], you chose menu option [selection]"
