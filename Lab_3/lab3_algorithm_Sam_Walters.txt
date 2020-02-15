@@ -1,0 +1,73 @@
+Sam Walters
+Lab 3, algorithm
+
+
+Menu -
+01. display menu
+02. read for user's option
+03. if option 1, play make_change game
+04. if option 2, display "High Card is coming soon"
+05. if option 3, do nothing; end program
+06. if option invalid, display error message; end program
+
+Make Change Game
+----------------
+01. read for amount customer owes for purchase, convert to float
+02. read for amount customer paid, convert to float
+03. calculate the change, rounded to 2 decimal places, and display
+04. display dollars back (see algorithm below)
+05. display quarters back (see algorithm below)
+06. display dimes back (see algorithm below)
+07. display nickels back (see algorithm below)
+08. display pennies back (see algorithm below)
+
+Displaying dollars back
+----------------
+01. calculate remainder for change divided by whole dollar denomination, rounded to 2 decimal places
+02. calculate difference between change and dollar remainder, then divide by whole dollar denomination,
+    rounded to 2 decimal places
+03. if difference is greater than 0,
+03a.    if the difference is greater than 1 display dollars owed back as int with plural label
+03b.    otherwise display dollars owed back as int with singular label
+
+Displaying quarters back
+----------------
+01. calculate remainder for dollar remainder divided by quarter denomination, rounded to 2 decimal places
+02. calculate difference between dollar remainder and quarter remainder, then divide by quarter denomination,
+        rounded to 2 decimal places
+03. if difference is greater than 0,
+03a.    if the difference is greater than 1 display quarters owed back as int with plural label
+03b.    otherwise display quarters owed back as int with singular label
+
+Displaying dimes back
+----------------
+01. calculate remainder for quarter remainder divided by dime denomination, rounded to 2 decimal places
+02. calculate difference between quarter remainder and dime remainder, then divide by dime denomination,
+        rounded to 2 decimal places
+03. if difference is greater than 0,
+03a.    if the difference is greater than 1 display dimes owed back as int with plural label
+03b.    otherwise display dimes owed back as int with singular label
+
+Displaying nickels back
+----------------
+01. calculate remainder for dime remainder divided by nickel denomination, rounded to 2 decimal places
+02. calculate difference between dime remainder and nickel remainder, then divide by nickel denomination,
+        rounded to 2 decimal places
+03. if difference is greater than 0,
+03a.    if the difference is greater than 1 display nickels owed back as int with plural label
+03b.    otherwise display nickels owed back as int with singular label
+
+Displaying pennies back
+----------------
+01. calculate remainder for dime remainder divided by penny denomination, rounded to 2 decimal places
+02. calculate difference between dime remainder and penny remainder, then divide by penny denomination,
+        rounded to 2 decimal places
+03. if difference is greater than 0,
+03a.    if the difference is greater than 1 display pennies owed back as int with plural label
+03b.    otherwise display pennies owed back as int with singular label
+
+
+
+
+
+
